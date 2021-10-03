@@ -1,0 +1,60 @@
+.custom-select
+{
+    width: 100% !important;
+} 
+ 
+.form-control, .asColorPicker-input, .dataTables_wrapper select, .jsgrid .jsgrid-table .jsgrid-filter-row input[type=text],
+.jsgrid .jsgrid-table .jsgrid-filter-row select, .jsgrid .jsgrid-table .jsgrid-filter-row input[type=number], .select2-container--default .select2-selection--single, .select2-container--default .select2-selection--single .select2-search__field, .typeahead,
+.tt-query,
+.tt-hint {
+  border: 1px solid darkblue !important ;
+  font-weight: 400;
+  font-size: 0.875rem;
+  height: auto;
+  padding: 0.875rem 0.875rem;
+}
+
+select.form-control, select.asColorPicker-input, .dataTables_wrapper select,
+.jsgrid .jsgrid-table .jsgrid-filter-row select, .select2-container--default select.select2-selection--single, .select2-container--default .select2-selection--single select.select2-search__field, select.typeahead,
+select.tt-query,
+select.tt-hint {
+  padding: .4375rem .75rem;
+  border: 0;
+  outline: 1px solid darkblue !important;
+  color: #979797;
+}
+
+select.form-control:focus, select.asColorPicker-input:focus, .dataTables_wrapper select:focus,
+.jsgrid .jsgrid-table .jsgrid-filter-row select:focus, .select2-container--default select.select2-selection--single:focus, .select2-container--default .select2-selection--single select.select2-search__field:focus, select.typeahead:focus,
+select.tt-query:focus,
+select.tt-hint:focus {
+  outline: 1px solid darkblue !important;
+}
+
+.client_bundle
+{
+  background-color: darkgrey;
+}
+
+.nested_td_table
+{
+  border: 3px solid darkblue !important;
+  background-color: bisque;
+}
+
+
+.badge-gray
+{
+  color: #fff;
+    background-color: gray !important;
+}
+.badge-orange
+{
+  color: #fff;
+    background-color: orange !important;
+}
+
+ 
+ 
+ 
+ 
